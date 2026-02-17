@@ -24,6 +24,12 @@
         "İnşaat Modu"
     ],
     "cheats": [
-    
+            {
+            "id": 1,
+            "command": "rosebud",
+            "description": "1,000 Simoleon ekler",
+            "category": "Para",
+            "requires_testing": false
+        }
     ]
 }
