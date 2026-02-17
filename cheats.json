@@ -1,0 +1,2954 @@
+{
+    "version": "0.0.9",
+    "categories": [
+        "Büyücü",
+        "Debug",
+        "Deniz Kızı",
+        "Diğer",
+        "Doğanın Büyüsü",
+        "Eko Yaşam",
+        "Görüntü",
+        "Kariyer",
+        "Kurt Adam",
+        "Mevsimler",
+        "Para",
+        "Vampir",
+        "Yaşam & Ölüm",
+        "Yetenekler",
+        "Ölüm",
+        "Özellikler",
+        "Üniversite",
+        "Ünlü",
+        "İhtiyaçlar",
+        "İlişkiler",
+        "İnşaat Modu"
+    ],
+    "cheats": [
+        {
+            "id": 1,
+            "command": "rosebud",
+            "description": "1,000 Simoleon ekler",
+            "category": "Para",
+            "requires_testing": false
+        },
+        {
+            "id": 2,
+            "command": "kaching",
+            "description": "1,000 Simoleon ekler",
+            "category": "Para",
+            "requires_testing": false
+        },
+        {
+            "id": 3,
+            "command": "motherlode",
+            "description": "50,000 Simoleon ekler",
+            "category": "Para",
+            "requires_testing": false
+        },
+        {
+            "id": 4,
+            "command": "Money X",
+            "description": "İstediğiniz miktarda Simoleon ekler (X yerine sayı yazın)",
+            "category": "Para",
+            "requires_testing": true
+        },
+        {
+            "id": 5,
+            "command": "stats.set_skill_level Major_HomestyleCooking 10",
+            "description": "Yemek Pişirme yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 6,
+            "command": "stats.set_skill_level Major_Charisma 10",
+            "description": "Karizma yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 7,
+            "command": "stats.set_skill_level Major_Comedy 10",
+            "description": "Komedi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 8,
+            "command": "stats.set_skill_level Major_Fishing 10",
+            "description": "Balıkçılık yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 9,
+            "command": "stats.set_skill_level Skill_Fitness 10",
+            "description": "Fitness yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 10,
+            "command": "stats.set_skill_level Major_Gardening 10",
+            "description": "Bahçıvanlık yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 11,
+            "command": "stats.set_skill_level Major_Guitar 10",
+            "description": "Gitar yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 12,
+            "command": "stats.set_skill_level Major_Handiness 10",
+            "description": "El Becerisi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 13,
+            "command": "stats.set_skill_level Major_Logic 10",
+            "description": "Mantık yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 14,
+            "command": "stats.set_skill_level Major_Mischief 10",
+            "description": "Yaramazlık yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 15,
+            "command": "stats.set_skill_level Major_Mixology 10",
+            "description": "Barmenlik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 16,
+            "command": "stats.set_skill_level Major_Painting 10",
+            "description": "Resim yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 17,
+            "command": "stats.set_skill_level Major_Piano 10",
+            "description": "Piyano yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 18,
+            "command": "stats.set_skill_level Major_RocketScience 10",
+            "description": "Roket Bilimi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 19,
+            "command": "stats.set_skill_level Major_VideoGaming 10",
+            "description": "Video Oyunları yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 20,
+            "command": "stats.set_skill_level Major_singing 10",
+            "description": "Şarkı Söyleme yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 21,
+            "command": "stats.set_skill_level Major_PipeOrgan 10",
+            "description": "Org Çalma yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 22,
+            "command": "Stats.Set_Skill_Level VampireLore 15",
+            "description": "Vampir İlmi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 23,
+            "command": "stats.set_skill_level Major_Vet 10",
+            "description": "Veterinerlik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 24,
+            "command": "stats.set_skill_level skill_Dog 5",
+            "description": "Evcil Hayvan Eğitimi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 25,
+            "command": "Stats.Set_Skill_Level Skill_Archery 10",
+            "description": "Okçuluk yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 26,
+            "command": "Stats.Set_Skill_Level Major_Papercraft 10",
+            "description": "Kağıt Sanatı yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 27,
+            "command": "Stats.Set_Skill_Level Entomology 10",
+            "description": "Böcek Bilimi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 28,
+            "command": "Stats.Set_Skill_Level Diving 10",
+            "description": "Dalış yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 29,
+            "command": "Stats.Set_Skill_Level Major_Apothecary 10",
+            "description": "Eczacılık/İksir yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 30,
+            "command": "Stats.Set_Skill_Level Major_Pottery 10",
+            "description": "Çömlekçilik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 31,
+            "command": "Stats.Set_Skill_Level Major_Tattooing 10",
+            "description": "Dövme Yapma yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 32,
+            "command": "Stats.Set_Skill_Level Minor_Thanatology 5",
+            "description": "Ölüm Bilimi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 33,
+            "command": "stats.set_skill_level Major_Romance 10",
+            "description": "Romantizm yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 34,
+            "command": "stats.set_skill_level Major_Acting 10",
+            "description": "Oyunculuk yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 35,
+            "command": "stats.set_skill_level Minor_Media 5",
+            "description": "Medya Prodüksiyonu yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 36,
+            "command": "stats.set_skill_level adultminor_entrepreneur 5",
+            "description": "Girişimcilik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 37,
+            "command": "stats.set_skill_level Skill_CrossStitch 5",
+            "description": "Kanaviçe yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 38,
+            "command": "stats.set_Skill_Level Major_Snowboarding 10",
+            "description": "Snowboard yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": false
+        },
+        {
+            "id": 39,
+            "command": "stats.set_Skill_Level Major_RockClimbing 10",
+            "description": "Kaya Tırmanışı yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": false
+        },
+        {
+            "id": 40,
+            "command": "stats.set_Skill_Level Major_Skiing 10",
+            "description": "Kayak yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": false
+        },
+        {
+            "id": 41,
+            "command": "stats.set_skill_level AdultMajor_EquestrianSkill 10",
+            "description": "Binicilik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 42,
+            "command": "stats.set_skill_level AdultMinor_RanchNectar 5",
+            "description": "Nektar Yapımı yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 43,
+            "command": "Stats.Set_Skill_Level Major_Swordsmanship 10",
+            "description": "Kılıç Kullanma yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 44,
+            "command": "aspirations.complete_current_milestone",
+            "description": "Mevcut Sim hedefini (Aspiration) tamamlar",
+            "category": "Debug",
+            "requires_testing": false
+        },
+        {
+            "id": 45,
+            "command": "careers.add_career X",
+            "description": "Kariyer ekler (X yerine istediğiniz kariyeri yazın)",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 46,
+            "command": "careers.promote X",
+            "description": "Sim'e terfi verir (X yerine kariyer adını yazın)",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 47,
+            "command": "careers.retire X",
+            "description": "Sim'i emekli eder (X yerine kariyer adını yazın)",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 48,
+            "command": "careers.promote ParkWorker",
+            "description": "Park Çalışanı kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 49,
+            "command": "careers.demote ParkWorker",
+            "description": "Park Çalışanı kariyerinde rütbe düşürür",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 50,
+            "command": "Careers.Promote Mortician",
+            "description": "Cenaze Kaldırıcı kariyerinde terfi ettirir",
+            "category": "Yaşam & Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 51,
+            "command": "Careers.Demote Mortician",
+            "description": "Cenaze Kaldırıcı kariyerinde rütbe düşürür",
+            "category": "Yaşam & Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 52,
+            "command": "Careers.Promote Active_Reaper",
+            "description": "Azrail kariyerinde terfi ettirir",
+            "category": "Yaşam & Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 53,
+            "command": "Careers.Demote Active_Reaper",
+            "description": "Azrail kariyerinde rütbe düşürür",
+            "category": "Yaşam & Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 54,
+            "command": "careers.promote romanceconsultant",
+            "description": "Romantizm Danışmanı kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 55,
+            "command": "careers.promote DramaClub",
+            "description": "Drama Kulübü'nde terfi ettirir (Sadece çocuklar için)",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 56,
+            "command": "careers.promote Actor",
+            "description": "Oyunculuk kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 57,
+            "command": "careers.promote teen_simsfluencersidehustle",
+            "description": "Genç Sim'e Simsfenomeni kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 58,
+            "command": "careers.promote parttime_simsfluencersidehustle",
+            "description": "Yetişkin Sim'e Simsfenomeni kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 59,
+            "command": "careers.promote teen_streamersidehustle",
+            "description": "Genç Sim'e Video Oyunu Yayıncısı kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 60,
+            "command": "careers.promote parttime_streamersidehustle",
+            "description": "Yetişkin Sim'e Video Oyunu Yayıncısı kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 61,
+            "command": "careers.promote CorporateWorker",
+            "description": "Sim'i Maaşlı Çalışan yapar",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 62,
+            "command": "careers.promote Adult_Gardener",
+            "description": "Bahçıvan kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 63,
+            "command": "careers.add_career Vet",
+            "description": "Sim'e Veterinerlik kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 64,
+            "command": "careers.promote socialmedia",
+            "description": "Sosyal Medya kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 65,
+            "command": "careers.promote activist",
+            "description": "Politikacı kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 66,
+            "command": "careers.promote careers_adult_critic",
+            "description": "Eleştirmen kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 67,
+            "command": "relationships.create_friends_for_sim",
+            "description": "Anında arkadaşlık ilişkisi olan yeni bir Sim oluşturur",
+            "category": "İlişkiler",
+            "requires_testing": false
+        },
+        {
+            "id": 68,
+            "command": "modifyrelationship {First Sim First Name} {First Sim Second Name} {Second Sim First Name} {Second Sim Second Name} 100 ltr_friendship_main",
+            "description": "Belirtilen iki Sim arasında %100 pozitif arkadaşlık sağlar",
+            "category": "İlişkiler",
+            "requires_testing": true
+        },
+        {
+            "id": 69,
+            "command": "modifyrelationship {First Sim First Name} {First Sim Second Name} {Second Sim First Name} {Second Sim Second Name} -100 ltr_friendship_main",
+            "description": "Belirtilen iki Sim arasında %100 negatif arkadaşlık sağlar",
+            "category": "İlişkiler",
+            "requires_testing": true
+        },
+        {
+            "id": 70,
+            "command": "modifyrelationship {First Sim First Name} {First Sim Second Name} {Second Sim First Name} {Second Sim Second Name} 100 ltr_romance_main",
+            "description": "Belirtilen iki Sim arasında %100 pozitif romantizm sağlar",
+            "category": "İlişkiler",
+            "requires_testing": true
+        },
+        {
+            "id": 71,
+            "command": "modifyrelationship {First Sim First Name} {First Sim Second Name} {Second Sim First Name} {Second Sim Second Name} -100 ltr_romance_main",
+            "description": "Belirtilen iki Sim arasında %100 negatif romantizm sağlar",
+            "category": "İlişkiler",
+            "requires_testing": true
+        },
+        {
+            "id": 72,
+            "command": "FreeRealEstate On",
+            "description": "Bütün evlerin ücretsiz olmasını sağlar",
+            "category": "İnşaat Modu",
+            "requires_testing": false
+        },
+        {
+            "id": 73,
+            "command": "FreeRealEstate Off",
+            "description": "Ücretsiz ev özelliğini kapatır",
+            "category": "İnşaat Modu",
+            "requires_testing": false
+        },
+        {
+            "id": 74,
+            "command": "bb.moveobjects on",
+            "description": "Eşyaların ızgara sisteminden bağımsız, iç içe veya havada durmasını sağlar",
+            "category": "İnşaat Modu",
+            "requires_testing": false
+        },
+        {
+            "id": 75,
+            "command": "bb.enablefreebuild",
+            "description": "Gizli bölgeler dahil her yere inşaat izni verir",
+            "category": "İnşaat Modu",
+            "requires_testing": false
+        },
+        {
+            "id": 76,
+            "command": "bb.ignoregameplayunlocksentitlement",
+            "description": "Kariyer ödülü olarak kilitli olan eşyaların kilidini açar",
+            "category": "İnşaat Modu",
+            "requires_testing": false
+        },
+        {
+            "id": 77,
+            "command": "sims.give_satisfaction_points X",
+            "description": "Sim'e memnuniyet puanı verir (X yerine puan miktarını yazın)",
+            "category": "İhtiyaçlar",
+            "requires_testing": true
+        },
+        {
+            "id": 78,
+            "command": "fillmotive motive_energy",
+            "description": "Sim'in enerji ihtiyacını doldurur",
+            "category": "İhtiyaçlar",
+            "requires_testing": false
+        },
+        {
+            "id": 79,
+            "command": "fillmotive motive_fun",
+            "description": "Sim'in eğlence ihtiyacını doldurur",
+            "category": "İhtiyaçlar",
+            "requires_testing": false
+        },
+        {
+            "id": 80,
+            "command": "fillmotive motive_hunger",
+            "description": "Sim'in açlık ihtiyacını doldurur",
+            "category": "İhtiyaçlar",
+            "requires_testing": false
+        },
+        {
+            "id": 81,
+            "command": "fillmotive motive_hygiene",
+            "description": "Sim'in hijyen ihtiyacını doldurur",
+            "category": "İhtiyaçlar",
+            "requires_testing": false
+        },
+        {
+            "id": 82,
+            "command": "fillmotive motive_social",
+            "description": "Sim'in sosyallik ihtiyacını doldurur",
+            "category": "İhtiyaçlar",
+            "requires_testing": false
+        },
+        {
+            "id": 83,
+            "command": "sims.fill_all_commodities",
+            "description": "Sim'in tüm ihtiyaç barlarını tamamen doldurur",
+            "category": "İhtiyaçlar",
+            "requires_testing": false
+        },
+        {
+            "id": 84,
+            "command": "death.toggle true",
+            "description": "Sim ölümlerini devre dışı bırakır (Ölüm gerçekleşmez)",
+            "category": "Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 85,
+            "command": "death.toggle false",
+            "description": "Sim ölümlerini tekrar etkinleştirir",
+            "category": "Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 86,
+            "command": "sims.add_buff buff_Death_ElderExhaustion_Warning",
+            "description": "Sim'i aşırı yorgunluktan anında öldürür (Yaşlılar için)",
+            "category": "Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 87,
+            "command": "sims.add_buff buff_Hysterical",
+            "description": "Gülmekten ölme (Sim'in ölmesi için bu ruh halinde birkaç saat kalması gerekir)",
+            "category": "Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 88,
+            "command": "stats.set_stat commodity_Buff_BurningLove_StartFire 7",
+            "description": "Yangın çıkararak ölme (İşe yaraması için art arda girin)",
+            "category": "Diğer",
+            "requires_testing": true
+        },
+        {
+            "id": 89,
+            "command": "sims.add_buff Buff_Motives_Hunger_Starving",
+            "description": "Açlıktan ölme (24 saat içinde gerçekleşir)",
+            "category": "Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 90,
+            "command": "sims.add_buff Buff_Mortified",
+            "description": "Utançtan ölme (Birkaç saat içinde gerçekleşir)",
+            "category": "Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 91,
+            "command": "sims.add_buff buff_Enraged",
+            "description": "Öfkeden ölme (Birkaç saat içinde gerçekleşir)",
+            "category": "Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 92,
+            "command": "traits.equip_trait Vampire_Sun",
+            "description": "Güneş ışığından ölme (Sadece Vampirler için)",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 93,
+            "command": "traits.equip_trait poison",
+            "description": "Zehirlenerek ölme (Jungle Adventure)",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 94,
+            "command": "traits.equip_trait Ghost_Frozen",
+            "description": "Donarak ölme (Seasons)",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 95,
+            "command": "traits.equip_trait trait_Ghost_MurphyBed",
+            "description": "Katlanır Yatak (Murphy Bed) kazasıyla ölme (Tiny Living)",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 96,
+            "command": "fps on",
+            "description": "Ekranın sol alt köşesinde saniyedeki kare hızı (FPS) sayacını gösterir",
+            "category": "Görüntü",
+            "requires_testing": false
+        },
+        {
+            "id": 97,
+            "command": "fps off",
+            "description": "FPS sayacını ekrandan kaldırır",
+            "category": "Görüntü",
+            "requires_testing": false
+        },
+        {
+            "id": 98,
+            "command": "headlineeffects off",
+            "description": "Simlerin üzerindeki konuşma balonlarını ve plombları gizler",
+            "category": "Görüntü",
+            "requires_testing": false
+        },
+        {
+            "id": 99,
+            "command": "headlineeffects on",
+            "description": "Simlerin üzerindeki konuşma balonlarını ve plombları tekrar gösterir",
+            "category": "Görüntü",
+            "requires_testing": false
+        },
+        {
+            "id": 100,
+            "command": "hovereffects on",
+            "description": "Fare ile Sim'lerin üzerine gelindiğinde oluşan beyaz çerçeve efektini açar",
+            "category": "Görüntü",
+            "requires_testing": false
+        },
+        {
+            "id": 101,
+            "command": "hovereffects off",
+            "description": "Fare ile Sim'lerin üzerine gelindiğinde oluşan beyaz çerçeve efektini kapatır",
+            "category": "Görüntü",
+            "requires_testing": false
+        },
+        {
+            "id": 102,
+            "command": "fullscreentoggle",
+            "description": "Tam ekran ile pencereli mod arasında geçiş yapar",
+            "category": "Görüntü",
+            "requires_testing": false
+        },
+        {
+            "id": 103,
+            "command": "Make Happy",
+            "description": "Sim'in tüm ihtiyaçlarını doldurur ve 'Mutlu' ruh hali verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 104,
+            "command": "Teleport Here",
+            "description": "Sim'i tıkladığınız yere ışınlar",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 105,
+            "command": "Reset Object (Sim Name)",
+            "description": "Takılan veya hata veren Sim'i sıfırlar (Resetler)",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 106,
+            "command": "Reset Object",
+            "description": "Hata veren eşyayı varsayılan durumuna sıfırlar",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 107,
+            "command": "Make into Plant Sim",
+            "description": "Sim'i Bitki Sim'e (Plant Sim) dönüştürür",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 108,
+            "command": "Disable Need Decay",
+            "description": "Sim'in ihtiyaçlarının azalmasını durdurur",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 109,
+            "command": "Enable Need Decay",
+            "description": "Sim'in ihtiyaçlarının azalmasını tekrar açar",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 110,
+            "command": "Modify in CAS",
+            "description": "Sim'i düzenlemek için Sim Yaratma Moduna (CAS) götürür",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 111,
+            "command": "Add to Family",
+            "description": "Seçilen Sim'i ailenize ekler",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 112,
+            "command": "Career Gigs Picker",
+            "description": "Mevcut kariyeri ne olursa olsun Sim'in serbest zamanlı işler seçmesini sağlar",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 113,
+            "command": "Remove from Family",
+            "description": "Sim'i ailenizden çıkarır ve kontrol edilemez hale getirir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 114,
+            "command": "Change Marriage",
+            "description": "Sim'in evliliğini sonlandırır",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 115,
+            "command": "Enroll in University",
+            "description": "Sim'i otomatik olarak üniversiteye kaydettirir (Discover University)",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 116,
+            "command": "Batuu Cheats",
+            "description": "Sim'in envanterine Batuu'daki tüm eşyaları ekler (Star Wars Journey to Batuu)",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 117,
+            "command": "traits.equip_trait ChopstickSavvy",
+            "description": "Sim'e 'Yemek Çubuğu Uzmanı' özelliği verir, çubukla yemeyi kolaylaştırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 118,
+            "command": "traits.equip_trait trait_hidden_career_critic_thrifty",
+            "description": "Sim'e 'Eleştirel Bağlantılı' özelliği verir, sanat eserlerinde %20 indirim sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 119,
+            "command": "traits.equip_trait InTheKnow",
+            "description": "Sim'e 'Haberdar' özelliği verir, market alışverişlerinde büyük indirim sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 120,
+            "command": "traits.equip_trait HomeTurf",
+            "description": "Sim'e 'Kendi Çöplüğü' özelliği verir, kendi mahallesinde daha mutlu olur",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 121,
+            "command": "traits.equip_trait SpiceHound",
+            "description": "Sim'e 'Baharat Tutkunu' özelliği verir, acı yerken mutlu olmasını sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 122,
+            "command": "careers.promote socialmedia",
+            "description": "Sosyal Medya kariyer yolunda Sim'i terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 123,
+            "command": "careers.promote activist",
+            "description": "Politikacı kariyer yolunda Sim'i terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 124,
+            "command": "careers.promote careers_adult_critic",
+            "description": "Eleştirmen kariyer yolunda Sim'i terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 125,
+            "command": "bucks.unlock_perk AdditionalVet_1 true",
+            "description": "Ekstra Veteriner #1",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 126,
+            "command": "bucks.unlock_perk AdditionalVet_2 true",
+            "description": "Ekstra Veteriner #2",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 127,
+            "command": "bucks.unlock_perk ReducePetStress true",
+            "description": "Evcil Hayvan Stresini Azaltma",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 128,
+            "command": "bucks.unlock_perk SupplyQuality true",
+            "description": "Veteriner Malzeme Kalitesinin Kilidini Açar",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 129,
+            "command": "bucks.unlock_perk UnlockCA",
+            "description": "Laboratuvar Önlüğü",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 130,
+            "command": "bucks.unlock_perk vetperks_InspirationalSpeechSocial true",
+            "description": "İlham Verici Konuşma",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 131,
+            "command": "bucks.unlock_perk vetperks_LengthenImpatienceTimeout true",
+            "description": "Sabırlı Hastalar",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 132,
+            "command": "bucks.unlock_perk vetperks_LowerChanceBadEvents_Small true",
+            "description": "İyi Yönetim",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 133,
+            "command": "bucks.unlock_perk vetperks_LowerEmployeeTrainingCost true",
+            "description": "Daha Düşük Çalışan Eğitim Maliyetleri",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 134,
+            "command": "bucks.unlock_perk vetperks_MoreCustomers true",
+            "description": "Veteriner Akını (Daha Fazla Müşteri)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 135,
+            "command": "careers.add_career Vet",
+            "description": "Sim'e Veterinerlik kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 136,
+            "command": "stats.set_skill_level Major_Vet 10",
+            "description": "Sim'in Veterinerlik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 137,
+            "command": "stats.set_skill_level skill_Dog 5",
+            "description": "Sim'in Hayvan Eğitimi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 138,
+            "command": "traits.equip_trait Attraction",
+            "description": "Sim'e 'Cazibe' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 139,
+            "command": "modifyrelationship {Sim's First Name} {Sim's First Name} {Pet's First Name} {Pet's Second Name} 100 LTR_SimToPet_Friendship_Main",
+            "description": "Sim ile seçilen evcil hayvan arasında pozitif ilişki ekler",
+            "category": "İlişkiler",
+            "requires_testing": true
+        },
+        {
+            "id": 140,
+            "command": "modifyrelationship {Sim's First Name} {Sim's First Name} {Pet's First Name} {Pet's Second Name} -100 LTR_SimToPet_Friendship_Main",
+            "description": "Sim ile seçilen evcil hayvan arasında negatif ilişki ekler",
+            "category": "İlişkiler",
+            "requires_testing": true
+        },
+        {
+            "id": 141,
+            "command": "traits.equip_trait trait_occultvampire",
+            "description": "Sim'e anında Vampir özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 142,
+            "command": "traits.remove_trait trait_occultvampire",
+            "description": "Sim'den Vampir özelliğini kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 143,
+            "command": "Stats.Set_Stat Commodity_Motive_Visible_Vampire_Power 100",
+            "description": "Vampir Gücünü (Power) maksimuma çıkarır",
+            "category": "Vampir",
+            "requires_testing": true
+        },
+        {
+            "id": 144,
+            "command": "Stats.Set_Skill_Level VampireLore 15",
+            "description": "Vampir İlmi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 145,
+            "command": "Stats.Set_Stat RankedStatistic_Occult_VampireXP 1593",
+            "description": "Vampir Deneyim Puanını (XP) maksimuma çıkarır",
+            "category": "Vampir",
+            "requires_testing": true
+        },
+        {
+            "id": 146,
+            "command": "seasons.advance_season",
+            "description": "Bir sonraki mevsime geçer",
+            "category": "Mevsimler",
+            "requires_testing": false
+        },
+        {
+            "id": 147,
+            "command": "careers.promote Adult_Gardener",
+            "description": "Sim'i Bahçıvanlık kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 148,
+            "command": "seasons.set_season 0",
+            "description": "Mevsimi Yaz olarak ayarlar",
+            "category": "Mevsimler",
+            "requires_testing": false
+        },
+        {
+            "id": 149,
+            "command": "seasons.set_season 1",
+            "description": "Mevsimi Sonbahar olarak ayarlar",
+            "category": "Mevsimler",
+            "requires_testing": false
+        },
+        {
+            "id": 150,
+            "command": "seasons.set_season 2",
+            "description": "Mevsimi Kış olarak ayarlar",
+            "category": "Mevsimler",
+            "requires_testing": false
+        },
+        {
+            "id": 151,
+            "command": "seasons.set_season 3",
+            "description": "Mevsimi İlkbahar olarak ayarlar",
+            "category": "Mevsimler",
+            "requires_testing": false
+        },
+        {
+            "id": 152,
+            "command": "weather.lightning_strike_here",
+            "description": "Sim'in bulunduğu yere yıldırım düşürür",
+            "category": "Mevsimler",
+            "requires_testing": false
+        },
+        {
+            "id": 153,
+            "command": "weather.request_forecast X",
+            "description": "Takvimde belirtilen gün sayısı kadar (1-28) hava durumunu gösterir",
+            "category": "Mevsimler",
+            "requires_testing": false
+        },
+        {
+            "id": 154,
+            "command": "traits.equip_trait trait_University_ArtHistoryDegreeBA",
+            "description": "Sim'e Sanat Tarihi diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 155,
+            "command": "traits.equip_trait trait_University_BartenderDegree",
+            "description": "Sim'e Barmenlik diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 156,
+            "command": "traits.equip_trait trait_University_BiologyDegreeBA",
+            "description": "Sim'e Biyoloji diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 157,
+            "command": "traits.equip_trait trait_University_CommunicationsDegreeBA",
+            "description": "Sim'e İletişim diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 158,
+            "command": "traits.equip_trait trait_University_ComputerScienceDegreeBA",
+            "description": "Sim'e Bilgisayar Bilimleri diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 159,
+            "command": "traits.equip_trait trait_University_CulinaryArtsDegreeBA",
+            "description": "Sim'e Mutfak Sanatları diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 160,
+            "command": "traits.equip_trait trait_University_DramaDegreeBA",
+            "description": "Sim'e Drama diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 161,
+            "command": "traits.equip_trait trait_University_EconomicsDegreeBA",
+            "description": "Sim'e Ekonomi diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 162,
+            "command": "traits.equip_trait trait_University_FineArtDegreeBA",
+            "description": "Sim'e Güzel Sanatlar diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 163,
+            "command": "traits.equip_trait trait_University_HistoryDegreeBA",
+            "description": "Sim'e Tarih diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 164,
+            "command": "traits.equip_trait trait_University_LanguageAndLiteratureDegreeBA",
+            "description": "Sim'e Dil ve Edebiyat diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 165,
+            "command": "traits.equip_trait trait_University_PhysicsDegreeBA",
+            "description": "Sim'e Fizik diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 166,
+            "command": "traits.equip_trait trait_University_PsychologyDegreeBA",
+            "description": "Sim'e Psikoloji diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 167,
+            "command": "traits.equip_trait trait_University_VillainyDegreeBA",
+            "description": "Sim'e Kötülük (Villainy) diploması verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 168,
+            "command": "University.Award_All_Degrees",
+            "description": "Sim'e tüm üniversite diplomalarını verir",
+            "category": "Üniversite",
+            "requires_testing": true
+        },
+        {
+            "id": 169,
+            "command": "traits.equip_trait trait_Hidden_ProfessorNPC_isArtsProfessorNPC",
+            "description": "Sim'i Sanat Profesörü yapar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 170,
+            "command": "traits.equip_trait trait_Hidden_ProfessorNPC_isScienceProfessorNPC",
+            "description": "Sim'i Bilim Profesörü yapar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 171,
+            "command": "University.Graduate",
+            "description": "Sim'i üniversiteden mezun eder",
+            "category": "Üniversite",
+            "requires_testing": true
+        },
+        {
+            "id": 172,
+            "command": "University.Accept_All_Degrees",
+            "description": "Sim'in tüm seçkin programlara kabul edilmesini sağlar",
+            "category": "Üniversite",
+            "requires_testing": true
+        },
+        {
+            "id": 173,
+            "command": "traits.equip_trait trait_occultwerewolf",
+            "description": "Sim'e anında Kurt Adam özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 174,
+            "command": "traits.remove_trait trait_occultwerewolf",
+            "description": "Sim'den Kurt Adam özelliğini kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 175,
+            "command": "stats.set_stat rankedStatistic_Werewolf_progression X",
+            "description": "Yazılan değere (1-5) bağlı olarak Kurt Adam deneyimini artırır",
+            "category": "Kurt Adam",
+            "requires_testing": true
+        },
+        {
+            "id": 176,
+            "command": "traits.equip_trait Trait_OccultMermaid",
+            "description": "Sim'i Deniz Kızı yapar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 177,
+            "command": "traits.remove_trait Trait_OccultMermaid",
+            "description": "Sim'i Deniz Kızı olmaktan çıkarır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 178,
+            "command": "traits.equip_trait Trait_IslandAncestors",
+            "description": "Sim'e 'Ada'nın Çocuğu' özelliğini verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 179,
+            "command": "traits.equip_trait Trait_ChildofTheOcean",
+            "description": "Sim'e 'Okyanusun Çocuğu' özelliğini verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 180,
+            "command": "traits.equip_trait Trait_NaturalSpeaker",
+            "description": "Sim'e 'Doğal Hatip' özelliğini verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 181,
+            "command": "traits.equip_trait Trait_FriendOfTheSea",
+            "description": "Sim'e 'Deniz Dostu' özelliğini verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 182,
+            "command": "volcanic_eruption large",
+            "description": "Büyük bir volkanik patlama yaratır",
+            "category": "Deniz Kızı",
+            "requires_testing": false
+        },
+        {
+            "id": 183,
+            "command": "volcanic_eruption small",
+            "description": "Küçük bir volkanik patlama yaratır",
+            "category": "Deniz Kızı",
+            "requires_testing": false
+        },
+        {
+            "id": 184,
+            "command": "traits.equip_trait trait_Occult_WitchOccult",
+            "description": "Sim'i Büyücü (Spellcaster) yapar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 185,
+            "command": "traits.remove_trait trait_Occult_WitchOccult",
+            "description": "Sim'i Büyücü olmaktan çıkarır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 186,
+            "command": "stats.set_stat rankedStatistic_WitchOccult_WitchXP 2350",
+            "description": "Sim'i Usta (Virtuoso) seviyesinde Büyücü yapar",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 187,
+            "command": "traits.equip_trait trait_Occult_WitchOccult_BloodlineWeak",
+            "description": "Sim'e Zayıf Soy (Weak Bloodline) özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 188,
+            "command": "traits.equip_trait trait_Occult_WitchOccult_BloodlineStrong",
+            "description": "Sim'e Güçlü Soy (Strong Bloodline) özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 189,
+            "command": "traits.equip_trait trait_Occult_WitchOccult_BloodlineAncient",
+            "description": "Sim'e Kadim Soy (Ancient Bloodline) özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 190,
+            "command": "traits.equip_trait trait_Ghost_Curses_NightStalker_Stalker",
+            "description": "Sim'i hayalete dönüştürür",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 191,
+            "command": "traits.equip_trait trait_Curses_InfectiousLaughter",
+            "description": "Sim'e 'Bulaşıcı Kahkaha Laneti' verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 192,
+            "command": "traits.equip_trait trait_Curses_NightStalker",
+            "description": "Sim'e 'Gece Hayaleti Laneti' verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 193,
+            "command": "traits.equip_trait trait_Curses_PunchableFace",
+            "description": "Sim'e 'Yersiz Düşmanlık Laneti' verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 194,
+            "command": "traits.equip_trait trait_Curses_Repulsiveness",
+            "description": "Sim'e 'İticilik Laneti' verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 195,
+            "command": "traits.equip_trait trait_Curses_SweatyStench",
+            "description": "Sim'e 'Temizlenemeyen Koku Laneti' verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 196,
+            "command": "traits.equip_trait trait_Curses_TouchyFeely",
+            "description": "Sim'e 'Garip Sarılma Laneti' verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 197,
+            "command": "traits.equip_trait trait_Curses_WildMagic",
+            "description": "Sim'e 'Kontrolsüz Büyü Laneti' verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 198,
+            "command": "bucks.unlock_perk witchPerks_Prowess_1_KnowledgeIsMagic true 49153 {SimID}",
+            "description": "Bilgi Büyüdür (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 199,
+            "command": "bucks.unlock_perk witchPerks_Prowess_2_MoteHound true 49153 {SimID}",
+            "description": "Zerre Avcısı (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 200,
+            "command": "bucks.unlock_perk witchPerks_Prowess_3_ChargeControl true 49153 {SimID}",
+            "description": "Yük Kontrolü (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 201,
+            "command": "bucks.unlock_perk witchPerks_Prowess_4_Hexproof true 49153 {SimID}",
+            "description": "Lanet Geçirmez (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 202,
+            "command": "bucks.unlock_perk witchPerks_Prowess_5_MagicalResonance true 49153 {SimID}",
+            "description": "Büyülü Rezonans (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 203,
+            "command": "bucks.unlock_perk witchPerks_Alchemy_1_BlenderArm true 49153 {SimID}",
+            "description": "Blender Kol (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 204,
+            "command": "bucks.unlock_perk witchPerks_Alchemy_2_FrugalCombinations true 49153 {SimID}",
+            "description": "Tutumlu Karışımlar (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 205,
+            "command": "bucks.unlock_perk witchPerks_Alchemy_3_ExtraChemistry true 49153 {SimID}",
+            "description": "Biraz Ekstra Kimya (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 206,
+            "command": "bucks.unlock_perk witchPerks_Alchemy_4_MixMaster true 49153 {SimID}",
+            "description": "Karışım Ustası (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 207,
+            "command": "bucks.unlock_perk witchPerks_Alchemy_5_PotentPotables true 49153 {SimID}",
+            "description": "Güçlü İksirler (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 208,
+            "command": "bucks.unlock_perk witchPerks_Spellcasting_1_Discharge true 49153 {SimID}",
+            "description": "Boşaltım (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 209,
+            "command": "bucks.unlock_perk witchPerks_Spellcasting_2_PowerShunt true 49153 {SimID}",
+            "description": "Güç Saptırma (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 210,
+            "command": "bucks.unlock_perk witchPerks_Spellcasting_3_SpectralReach true 49153 {SimID}",
+            "description": "Hayalet Erişimi (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 211,
+            "command": "bucks.unlock_perk witchPerks_Spellcasting_4_MasterCaster true 49153 {SimID}",
+            "description": "Usta Büyücü (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 212,
+            "command": "bucks.unlock_perk witchPerks_Spellcasting_5_MasterDuelist true 49153 {SimID}",
+            "description": "Usta Düellocu (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 213,
+            "command": "bucks.unlock_perk witchPerks_Open_3C_PracticedPracticality true 49153 {SimID}",
+            "description": "Pratiklik Alışkanlığı (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 214,
+            "command": "bucks.unlock_perk witchPerks_Open_1A_IncredibleForager true 49153 {SimID}",
+            "description": "İnanılmaz Toplayıcı (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 215,
+            "command": "bucks.unlock_perk witchPerks_Open_2A_InsightfulEye true 49153 {SimID}",
+            "description": "İçgörülü Göz (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 216,
+            "command": "bucks.unlock_perk witchPerks_Open_3A_MischiefMaster true 49153 {SimID}",
+            "description": "Yaramazlık Ustası (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 217,
+            "command": "bucks.unlock_perk witchPerks_Open_4A_NaturalMentor true 49153 {SimID}",
+            "description": "Doğal Akıl Hocası (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 218,
+            "command": "bucks.unlock_perk witchPerks_Open_1B_Experimenter true 49153 {SimID}",
+            "description": "Deneyci (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 219,
+            "command": "bucks.unlock_perk witchPerks_Open_2B_WitchSocialite true 49153 {SimID}",
+            "description": "Sosyetenin Gözbebeği Büyücü (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 220,
+            "command": "bucks.unlock_perk witchPerks_Open_3B_TameTheUntameable true 49153 {SimID}",
+            "description": "Ehlileştirilemezi Ehlileştirme (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 221,
+            "command": "bucks.unlock_perk witchPerks_Open_4B_MagicalDiscounts true 49153 {SimID}",
+            "description": "Büyülü İndirimler (Büyücü Avantajı)",
+            "category": "Büyücü",
+            "requires_testing": true
+        },
+        {
+            "id": 222,
+            "command": "stats.set_skill_level AdultMajor_EquestrianSkill 10",
+            "description": "Binicilik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 223,
+            "command": "stats.set_skill_level AdultMinor_RanchNectar 5",
+            "description": "Sim'in Nektar Yapımı yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 224,
+            "command": "stats.set_skill_level Horse_Temperament 10 {HorseID}",
+            "description": "Atın Mizaç seviyesini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 225,
+            "command": "stats.set_skill_level Horse_Agility 10 {HorseID}",
+            "description": "Atın Çeviklik seviyesini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 226,
+            "command": "stats.set_skill_level Horse_Jumping 10 {HorseID}",
+            "description": "Atın Zıplama seviyesini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 227,
+            "command": "stats.set_skill_level Horse_Endurance 10 {HorseID}",
+            "description": "Atın Dayanıklılık seviyesini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 228,
+            "command": "traits.equip_trait Trait_Adventurous",
+            "description": "Sim'e 'Maceracı' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 229,
+            "command": "traits.equip_trait Trait_Proper",
+            "description": "Sim'e 'Gelenekselci' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 230,
+            "command": "traits.equip_trait Trait_CorporateWorker_CharismaticCrooner",
+            "description": "Sim'e 'Karizmatik Şarkıcı' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 231,
+            "command": "traits.equip_trait Trait_CorporateWorker_LegendaryStamina",
+            "description": "Sim'e 'Efsanevi Dayanıklılık' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 232,
+            "command": "traits.equip_trait Trait_SurvivalInstinct",
+            "description": "Sim'e 'Hayatta Kalma İçgüdüsü' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 233,
+            "command": "traits.equip_trait Trait_WorldlyKnowledge",
+            "description": "Sim'e 'Dünya Görüşü' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 234,
+            "command": "traits.equip_trait Trait_Excursion_Mountaineer_Rank3",
+            "description": "Sim'e 'Uzman Dağcı' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 235,
+            "command": "traits.equip_trait Trait_TownMascot",
+            "description": "Sim'e 'Şehir Maskotu' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 236,
+            "command": "traits.equip_trait Trait_Hidden_RockClimbingGear_HasGear",
+            "description": "Sim'e Kaya Tırmanış Ekipmanı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 237,
+            "command": "traits.equip_trait Trait_Lifestyles_AdrenalineSeeker",
+            "description": "Sim'e 'Adrenalin Tutkunu' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 238,
+            "command": "traits.equip_trait Trait_Lifestyles_CloseKnit",
+            "description": "Sim'e 'Sıkı Fıkı' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 239,
+            "command": "traits.equip_trait Trait_Lifestyles_CoffeeFanatic",
+            "description": "Sim'e 'Kahve Fanatiği' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 240,
+            "command": "traits.equip_trait Trait_Lifestyles_Energetic",
+            "description": "Sim'e 'Enerjik' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 241,
+            "command": "traits.equip_trait Trait_Lifestyles_FrequentTraveler",
+            "description": "Sim'e 'Sık Seyahat Eden' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 242,
+            "command": "traits.equip_trait Trait_Lifestyles_HealthFoodNut",
+            "description": "Sim'e 'Sağlıklı Beslenen' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 243,
+            "command": "traits.equip_trait Trait_Lifestyles_HungryForLove",
+            "description": "Sim'e 'Aşka Susamış' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 244,
+            "command": "traits.equip_trait Trait_Lifestyles_Indoorsy",
+            "description": "Sim'e 'Ev Kuşu' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 245,
+            "command": "traits.equip_trait Trait_Lifestyles_JunkFoodFiend",
+            "description": "Sim'e 'Abur Cubur Düşkünü' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 246,
+            "command": "traits.equip_trait Trait_Lifestyles_Networker",
+            "description": "Sim'e 'Sosyal Ağ Oluşturucu' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 247,
+            "command": "traits.equip_trait Trait_Lifestyles_NoNeedForRomance",
+            "description": "Sim'e 'Romantizme İhtiyacı Yok' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 248,
+            "command": "traits.equip_trait Trait_Lifestyles_Outdoorsy",
+            "description": "Sim'e 'Doğa Aşığı' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 249,
+            "command": "traits.equip_trait Trait_Lifestyles_Sedentary",
+            "description": "Sim'e 'Hareketsiz' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 250,
+            "command": "traits.equip_trait Trait_Lifestyles_Techie",
+            "description": "Sim'e 'Teknoloji Kurdu' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 251,
+            "command": "traits.equip_trait Trait_Lifestyles_Techophobe",
+            "description": "Sim'e 'Teknoloji Karşıtı' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 252,
+            "command": "traits.equip_trait Trait_Lifestyles_Workaholic",
+            "description": "Sim'e 'İşkolik' yaşam tarzı özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 253,
+            "command": "stats.set_Skill_Level Major_Snowboarding 10",
+            "description": "Sim'in Snowboard yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": false
+        },
+        {
+            "id": 254,
+            "command": "stats.set_Skill_Level Major_RockClimbing 10",
+            "description": "Sim'in Kaya Tırmanışı yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": false
+        },
+        {
+            "id": 255,
+            "command": "stats.set_Skill_Level Major_Skiing 10",
+            "description": "Sim'in Kayak yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": false
+        },
+        {
+            "id": 256,
+            "command": "careers.promote CorporateWorker",
+            "description": "Sim'i Maaşlı Çalışan yapar",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 257,
+            "command": "traits.equip_trait trait_AnimalEnthusiast",
+            "description": "Sim'e 'Hayvan Sever' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 258,
+            "command": "traits.equip_trait trait_LactoseIntolerant",
+            "description": "Sim'e 'Laktoz İntoleransı' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 259,
+            "command": "traits.equip_trait trait_Nature_Country",
+            "description": "Sim'e 'Doğa Koruyucusu' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 260,
+            "command": "stats.set_skill_level Skill_CrossStitch 5",
+            "description": "Sim'in Kanaviçe yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 261,
+            "command": "Create Cow",
+            "description": "İnek yaratır",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 262,
+            "command": "Create Llama",
+            "description": "Lama yaratır",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 263,
+            "command": "Create Rabbit",
+            "description": "Tavşan yaratır",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 264,
+            "command": "Create Chicken",
+            "description": "Tavuk yaratır",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 265,
+            "command": "Create Egg",
+            "description": "Yumurta yaratır",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 266,
+            "command": "traits.equip_trait trait_top_notch_toddler",
+            "description": "Çocuğa 'Kusursuz Bebeklik' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 267,
+            "command": "traits.equip_trait Infant_Unhappy",
+            "description": "Çocuğa 'Mutsuz Bebeklik' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 268,
+            "command": "traits.equip_trait Infant_Happy",
+            "description": "Çocuğa 'Mutlu Bebeklik' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 269,
+            "command": "traits.equip_trait highselfesteem",
+            "description": "Genç Sim'e 'Yüksek Özgüven' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 270,
+            "command": "traits.equip_trait headstrong",
+            "description": "Genç Sim'e 'Dik Başlı' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 271,
+            "command": "careers.promote teen_simsfluencersidehustle",
+            "description": "Genç Sim'e Simsfenomeni kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 272,
+            "command": "careers.promote parttime_simsfluencersidehustle",
+            "description": "Sim'e Simsfenomeni kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 273,
+            "command": "careers.promote teen_streamersidehustle",
+            "description": "Genç Sim'e Video Oyunu Yayıncısı kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 274,
+            "command": "careers.promote parttime_streamersidehustle",
+            "description": "Sim'e Video Oyunu Yayıncısı kariyeri verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 275,
+            "command": "stats.set_skill_level adultminor_entrepreneur 5",
+            "description": "Sim'in Girişimcilik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 276,
+            "command": "traits.equip_trait trait_hsexit_graduate_early",
+            "description": "Sim'e 'Erken Mezun' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 277,
+            "command": "traits.equip_trait trait_hsexit_dropout",
+            "description": "Sim'e 'Okulu Bırakan' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 278,
+            "command": "traits.equip_trait trait_hsexit_expelled",
+            "description": "Sim'e 'Okuldan Atılmış' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 279,
+            "command": "traits.equip_trait trait_hsexit_graduate_honors",
+            "description": "Sim'in Onur Derecesiyle mezun olmasını sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 280,
+            "command": "traits.equip_trait trait_hsexit_graduate_valedictorian",
+            "description": "Sim'in Okul Birincisi olarak mezun olmasını sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 281,
+            "command": "traits.equip_trait Overachiever",
+            "description": "Sim'e 'Aşırı Başarılı' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 282,
+            "command": "traits.equip_trait PartyAnimal",
+            "description": "Sim'e 'Parti Canavarı' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 283,
+            "command": "traits.equip_trait SociallyAwkward",
+            "description": "Sim'e 'Sosyal Açıdan Beceriksiz' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 284,
+            "command": "hurt_st_hsprom_brokenditchpromise",
+            "description": "Sim'e 'Bozulan Balo Sözü Nedeniyle Kızgın' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 285,
+            "command": "close_st_hsprom_skippingpromtoether",
+            "description": "Sim'e 'Baloyu Birlikte Ekmekten Doğan Yakınlık' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 286,
+            "command": "close_st_throwfootballbondingmoment",
+            "description": "Sim'e 'Amerikan Futbolu ile Kaynaşma' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 287,
+            "command": "needsdistance_st_friend",
+            "description": "Sim'e 'Ürkmüş' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 288,
+            "command": "guilty_st_hsprom_brokenpact",
+            "description": "Sim'e 'Bozulan Balo Anlaşması Nedeniyle Suçlu' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 289,
+            "command": "close_st_goodfirstimpression",
+            "description": "Sim'e 'İyi Bir İlk İzlenim' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 290,
+            "command": "enamored_st_hsprom_impressedbypromposal",
+            "description": "Sim'e 'Balo Teklifinden Etkilenmiş' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 291,
+            "command": "close_lt_iknowtheyvegotmyback",
+            "description": "Sim'e 'Arkamda Olduğunu Biliyorum' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 292,
+            "command": "st_openablewindow_successevent",
+            "description": "Sim'e 'Kalıcı Anılar' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 293,
+            "command": "st_openablewindow_failevent",
+            "description": "Sim'e 'Sıkıcı Maceralar' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 294,
+            "command": "close_lt_twopeasinapod",
+            "description": "Sim'e 'Tencere Kapak Misali' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 295,
+            "command": "close_lt_theyunderstand",
+            "description": "Sim'e 'Beni Anlıyorlar' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 296,
+            "command": "bitter_st_hsprom_noprominvite",
+            "description": "Sim'e 'Baloya Davet Edilmediği İçin Alınmış' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 297,
+            "command": "crush_lt_generic",
+            "description": "Sim'e 'Hoşlantı/Aşk' duygusunu verir",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 298,
+            "command": "eco_footprint.set_eco_footprint_state 2",
+            "description": "Ekolojik Ayak İzini Endüstriyel olarak değiştirir",
+            "category": "Eko Yaşam",
+            "requires_testing": false
+        },
+        {
+            "id": 299,
+            "command": "eco_footprint.set_eco_footprint_state 1",
+            "description": "Ekolojik Ayak İzini Nötr olarak değiştirir",
+            "category": "Eko Yaşam",
+            "requires_testing": false
+        },
+        {
+            "id": 300,
+            "command": "eco_footprint.set_eco_footprint_state 0",
+            "description": "Ekolojik Ayak İzini Yeşil olarak değiştirir",
+            "category": "Eko Yaşam",
+            "requires_testing": false
+        },
+        {
+            "id": 301,
+            "command": "traits.equip_trait lifeskills_goodmanners",
+            "description": "Sim'e 'İyi Görgü Kuralları' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 302,
+            "command": "traits.equip_trait lifeskills_badmanners",
+            "description": "Sim'e 'Kötü Görgü Kuralları' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 303,
+            "command": "traits.equip_trait lifeskills_emotionalcontrol",
+            "description": "Sim'e 'Duygusal Kontrol' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 304,
+            "command": "traits.equip_trait lifeskills_uncontrolledemotion",
+            "description": "Sim'e 'Kontrolsüz Duygular' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 305,
+            "command": "traits.equip_trait lifeskills_responsible",
+            "description": "Sim'e 'Sorumluluk Sahibi' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 306,
+            "command": "traits.equip_trait lifeskills_irresponsible",
+            "description": "Sim'e 'Sorumsuz' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 307,
+            "command": "traits.equip_trait lifeskills_compassionate",
+            "description": "Sim'e 'Merhametli' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 308,
+            "command": "traits.equip_trait lifeskills_unfeeling",
+            "description": "Sim'e 'Duygusuz' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 309,
+            "command": "traits.equip_trait lifeskills_mediator",
+            "description": "Sim'e 'Arabulucu' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 310,
+            "command": "traits.equip_trait lifeskills_argumentative",
+            "description": "Sim'e 'Tartışmacı' özelliği verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 311,
+            "command": "famepoints {number}",
+            "description": "Seçilen Sim için Şöhret Puanı ekler",
+            "category": "Ünlü",
+            "requires_testing": false
+        },
+        {
+            "id": 312,
+            "command": "careers.promote DramaClub",
+            "description": "Sim'e Drama Kulübü'nde terfi verir (Çocuklar için)",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 313,
+            "command": "careers.promote Actor",
+            "description": "Sim'e Oyunculuk kariyerinde terfi verir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 314,
+            "command": "stats.set_skill_level Minor_Media 5",
+            "description": "Medya Prodüksiyonu yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 315,
+            "command": "stats.set_skill_level Major_Acting 10",
+            "description": "Oyunculuk yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 316,
+            "command": "traits.equip_trait WorldRenownedActor",
+            "description": "Seçilen Sim'e 'Dünyaca Ünlü Oyuncu' özelliğini verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 317,
+            "command": "traits.equip_trait UnstoppableFame",
+            "description": "Seçilen Sim'e 'Durdurulamaz Şöhret' özelliğini verir",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 318,
+            "command": "bucks.unlock_perk GoodReputation_Rally true 61441 {SimID}",
+            "description": "Toplanın! (İyi İtibar avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 319,
+            "command": "bucks.unlock_perk GivingBack true 61441 {SimID}",
+            "description": "Geri Verme (İyi İtibar avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 320,
+            "command": "bucks.unlock_perk StarTreatment true 61441 {SimID}",
+            "description": "Yıldız Muamelesi (İyi İtibar avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 321,
+            "command": "bucks.unlock_perk PlayTheVillain true 61441 {SimID}",
+            "description": "Kötü Adamı Oyna (Kötü İtibar avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 322,
+            "command": "bucks.unlock_perk WhosBad true 61441 {SimID}",
+            "description": "Kimmiş Kötü (Kötü İtibar avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 323,
+            "command": "bucks.unlock_perk FeudBringer true 61441 {SimID}",
+            "description": "Huzursuzluk Getiren (Kötü İtibar avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 324,
+            "command": "bucks.unlock_perk Influencer true 61441 {SimID}",
+            "description": "İnfluencer (Fenomen avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 325,
+            "command": "bucks.unlock_perk AllNighter true 61441 {SimID}",
+            "description": "Sabahlayan (Fenomen avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 326,
+            "command": "bucks.unlock_perk Trailblazer true 61441 {SimID}",
+            "description": "Öncü (Fenomen avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 327,
+            "command": "bucks.unlock_perk CorporatePartnership true 61441 {SimID}",
+            "description": "Kurumsal Ortaklık (Fenomen avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 328,
+            "command": "bucks.unlock_perk LifestyleBrand true 61441 {SimID}",
+            "description": "Yaşam Tarzı Markası (Fenomen avantajı)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 329,
+            "command": "bucks.unlock_perk Networking true 61441 {SimID}",
+            "description": "Ağ Kurma (Ünlü Simlerle sosyalleşmeyi kolaylaştırır)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 330,
+            "command": "bucks.unlock_perk PRPerson true 61441 {SimID}",
+            "description": "Halkla İlişkiler Ajansı (İtibarınızı yönetir ve özel davetler ayarlar)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 331,
+            "command": "bucks.unlock_perk InstantBesties true 61441 {SimID}",
+            "description": "Anında Sıkı Dostlar (Tanıştırıldıktan hemen sonra arkadaş veya sevgili olmayı sağlar)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 332,
+            "command": "bucks.unlock_perk Squad true 61441 {SimID}",
+            "description": "Ekip (Maiyetinizdekileri yanınıza çağırır)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 333,
+            "command": "bucks.unlock_perk Noticeable true 61441 {SimID}",
+            "description": "Fark Edilir (Kariyer ve becerilerden ekstra şöhret kazanma fırsatı verir)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 334,
+            "command": "bucks.unlock_perk FanFavorite true 61441 {SimID}",
+            "description": "Hayranların Gözdesi (Hayranlarınızı itibar ve şöhretinizi etkilemek için kullanabilirsiniz)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 335,
+            "command": "bucks.unlock_perk EstablishedName true 61441 {SimID}",
+            "description": "Tanınmış İsim (Kazancınızı artırır, gardırop ve deneme çekimlerini atlamanızı sağlar)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 336,
+            "command": "bucks.unlock_perk CareerHopper true 61441 {SimID}",
+            "description": "Kariyer Gezgini (Kariyerde ilerlemeyi ve yeni kariyere başlamayı kolaylaştırır)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 337,
+            "command": "bucks.unlock_perk CelebuSerum true 61441 {SimID}",
+            "description": "ÜnlüSerumu (Posta kutunuza şöhret artırıcı 'iksirler' gelir)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 338,
+            "command": "bucks.unlock_perk EasyStreet true 61441 {SimID}",
+            "description": "Köşeyi Dönmek (Daha büyük maaş çeki, daha keyifli iş ve hızlı ilerleme sağlar)",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 339,
+            "command": "bucks.unlock_perk ASeriousActor true 61442 {SimID}",
+            "description": "Ciddi Bir Oyuncu avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 340,
+            "command": "bucks.unlock_perk EmotionBomb true 61442 {SimID}",
+            "description": "Duygu Bombası avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 341,
+            "command": "bucks.unlock_perk FanMail true 61442 {SimID}",
+            "description": "Hayran Mektubu avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 342,
+            "command": "bucks.unlock_perk BrushesWithFame true 61442 {SimID}",
+            "description": "Şöhretle Temas avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 343,
+            "command": "bucks.unlock_perk JuiceEnthusiast true 61442 {SimID}",
+            "description": "Meyve Suyu Tutkunu avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 344,
+            "command": "bucks.unlock_perk NoTouching true 61442 {SimID}",
+            "description": "Dokunmak Yok! avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 345,
+            "command": "bucks.unlock_perk PublicNumber true 61442 {SimID}",
+            "description": "Halka Açık Numara avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 346,
+            "command": "bucks.unlock_perk RefinedPalate true 61442 {SimID}",
+            "description": "Gelişmiş Damak Tadı avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 347,
+            "command": "bucks.unlock_perk Quirks_Stan true 61442 {SimID}",
+            "description": "Takıntılı Hayran! avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 348,
+            "command": "bucks.unlock_perk VainStreet true 61442 {SimID}",
+            "description": "Kibir Sokağı avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 349,
+            "command": "bucks.unlock_perk PaparazziDarling true 61442 {SimID}",
+            "description": "Paparazzi Sevgilisi avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 350,
+            "command": "bucks.unlock_perk PhoneFanatic true 61442 {SimID}",
+            "description": "Telefon Fanatiği avantajı",
+            "category": "Ünlü",
+            "requires_testing": true
+        },
+        {
+            "id": 351,
+            "command": "careers.promote romanceconsultant",
+            "description": "Sim Romantizm Danışmanı kariyerinde terfi alır",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 352,
+            "command": "stats.set_skill_level Major_Romance 10",
+            "description": "Sim'in Romantizm yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 353,
+            "command": "aspirations.complete_current_milestone",
+            "description": "Aktif Sim'in mevcut hedefini (Aspiration) tamamlar, Memnuniyet Puanı ve Ruh Yolculuğu ilerlemesi kazandırır",
+            "category": "Debug",
+            "requires_testing": false
+        },
+        {
+            "id": 354,
+            "command": "sims.give_satisfaction_points X",
+            "description": "Aktif Sim'e Memnuniyet Puanı verir",
+            "category": "İhtiyaçlar",
+            "requires_testing": true
+        },
+        {
+            "id": 355,
+            "command": "Stats.Set_Skill_Level Minor_Thanatology 5",
+            "description": "Ölüm Bilimi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 356,
+            "command": "Careers.Promote Mortician",
+            "description": "Sim'i Cenaze Kaldırıcı kariyerinde terfi ettirir",
+            "category": "Yaşam & Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 357,
+            "command": "Careers.Demote Mortician",
+            "description": "Sim'i Cenaze Kaldırıcı kariyerinde rütbe düşürür",
+            "category": "Yaşam & Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 358,
+            "command": "Careers.Promote Active_Reaper",
+            "description": "Sim'i Azrail kariyerinde terfi ettirir",
+            "category": "Yaşam & Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 359,
+            "command": "Careers.Demote Active_Reaper",
+            "description": "Sim'i Azrail kariyerinde rütbe düşürür",
+            "category": "Yaşam & Ölüm",
+            "requires_testing": false
+        },
+        {
+            "id": 360,
+            "command": "traits.equip_trait trait_grief_anger",
+            "description": "Öfke Yasını (Grief) ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 361,
+            "command": "traits.remove_trait trait_grief_anger",
+            "description": "Öfke Yasını (Grief) kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 362,
+            "command": "traits.equip_trait trait_ChasedByDeath",
+            "description": "'Ölüm Tarafından Kovalanan' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 363,
+            "command": "traits.remove_trait trait_ChasedByDeath",
+            "description": "'Ölüm Tarafından Kovalanan' özelliğini kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 364,
+            "command": "traits.equip_trait trait_grief_denial",
+            "description": "İnkar Yasını (Grief) ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 365,
+            "command": "traits.remove_trait trait_grief_denial",
+            "description": "İnkar Yasını (Grief) kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 366,
+            "command": "traits.equip_trait GhostWhisperer",
+            "description": "'Hayaletlere Fısıldayan' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 367,
+            "command": "traits.remove_trait GhostWhisperer",
+            "description": "'Hayaletlere Fısıldayan' özelliğini kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 368,
+            "command": "traits.equip_trait Grimborn",
+            "description": "'Azrail Doğumlu' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 369,
+            "command": "traits.remove_trait Grimborn",
+            "description": "'Azrail Doğumlu' özelliğini kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 370,
+            "command": "traits.equip_trait GrimDescendant",
+            "description": "'Azrail Soyundan Gelen' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 371,
+            "command": "traits.remove_trait GrimDescendant",
+            "description": "'Azrail Soyundan Gelen' özelliğini kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 372,
+            "command": "traits.equip_trait trait_Macabre",
+            "description": "'Ürkütücü' (Macabre) özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 373,
+            "command": "traits.remove_trait trait_Macabre",
+            "description": "'Ürkütücü' (Macabre) özelliğini kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 374,
+            "command": "traits.equip_trait trait_grief_depression",
+            "description": "Hüzün Yasını (Grief) ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 375,
+            "command": "traits.remove_trait trait_grief_depression",
+            "description": "Hüzün Yasını (Grief) kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 376,
+            "command": "traits.equip_trait trait_Skeptical",
+            "description": "'Şüpheci' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 377,
+            "command": "traits.remove_trait trait_Skeptical",
+            "description": "'Şüpheci' özelliğini kaldırır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 378,
+            "command": "traits.equip_trait FinalTouch",
+            "description": "Sim'in üretilen nesnelere 'Son Dokunuş' eklemesini sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 379,
+            "command": "traits.equip_trait Spice",
+            "description": "Sim'in yiyeceklere 'Gizli Baharat' eklemesini sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 380,
+            "command": "traits.equip_trait PowerfulPerformer",
+            "description": "Sim'i 'Yetenekli Sanatçı' yapar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 381,
+            "command": "traits.equip_trait AuraMental",
+            "description": "Sim'in kendisinde 'Zihinsel Aura'yı etkinleştirmesini sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 382,
+            "command": "traits.equip_trait InTheZone",
+            "description": "'Akışta' (In The Zone) özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 383,
+            "command": "traits.equip_trait PigeonholedActive",
+            "description": "'Kalııplaşmış (Aktif)' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 384,
+            "command": "traits.equip_trait PigeonholedCreative",
+            "description": "'Kalıplaşmış (Yaratıcı)' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 385,
+            "command": "traits.equip_trait PigeonholedMental",
+            "description": "'Kalıplaşmış (Zihinsel)' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 386,
+            "command": "traits.equip_trait PigeonholedSocial",
+            "description": "'Kalıplaşmış (Sosyal)' özelliğini ekler",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 387,
+            "command": "traits.equip_trait Spacebend",
+            "description": "Arazi için 'Uzay Bükme' özelliğini açar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 388,
+            "command": "traits.equip_trait SecondWind",
+            "description": "Sim'in tüm yataklarda 'Ustalıkla Uyuma' özelliğini kullanmasını sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 389,
+            "command": "traits.equip_trait AuraCreative",
+            "description": "Sim'in kendisinde 'Yaratıcı Aura'yı etkinleştirmesini sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 390,
+            "command": "traits.equip_trait AspirationalThinker",
+            "description": "Sim zihinsel becerileri kullandığında Memnuniyet Puanı kazanır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 391,
+            "command": "traits.equip_trait AspirationalCreator",
+            "description": "Sim yaratıcı becerileri kullandığında Memnuniyet Puanı kazanır",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 392,
+            "command": "traits.equip_trait AuraActive",
+            "description": "Sim'in kendisinde 'Aktif Aura'yı etkinleştirmesini sağlar",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 393,
+            "command": "Stats.Set_Skill_Level Major_Tattooing 10",
+            "description": "Dövme Yapma yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 394,
+            "command": "Stats.Set_Skill_Level Major_Pottery 10",
+            "description": "Çömlekçilik yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 395,
+            "command": "traits.equip_trait trait_Beloved",
+            "description": "Ekler: Sevgili (Beloved) özelliği",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 396,
+            "command": "traits.remove_trait trait_Beloved",
+            "description": "Kaldırır: Sevgili (Beloved) özelliği",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 397,
+            "command": "traits.equip_trait trait_Speaker",
+            "description": "Ekler: Hatip (Speaker) özelliği",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 398,
+            "command": "traits.remove_trait trait_Speaker",
+            "description": "Kaldırır: Hatip (Speaker) özelliği",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 399,
+            "command": "traits.equip_trait trait_Idealist",
+            "description": "Ekler: İdealist özelliği",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 400,
+            "command": "traits.remove_trait trait_Idealist",
+            "description": "Kaldırır: İdealist özelliği",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 401,
+            "command": "traits.equip_trait trait_Shady",
+            "description": "Ekler: Tekinsiz (Shady) özelliği",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 402,
+            "command": "traits.remove_trait trait_Shady",
+            "description": "Kaldırır: Tekinsiz (Shady) özelliği",
+            "category": "Özellikler",
+            "requires_testing": true
+        },
+        {
+            "id": 403,
+            "command": "Stats.Set_Skill_Level Major_Apothecary 10",
+            "description": "Eczacılık/İksir yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 404,
+            "command": "Traits.equip_trait Trait_Mystical",
+            "description": "Seçilen Sim'e 'Gizemli' (Mystical) özelliğini ekler",
+            "category": "Doğanın Büyüsü",
+            "requires_testing": false
+        },
+        {
+            "id": 405,
+            "command": "Traits.remove_trait Trait_Mystical",
+            "description": "Seçilen Sim'den 'Gizemli' (Mystical) özelliğini kaldırır",
+            "category": "Doğanın Büyüsü",
+            "requires_testing": false
+        },
+        {
+            "id": 406,
+            "command": "Traits.equip_trait Trait_Plantlover",
+            "description": "Seçilen Sim'e 'Bitki Sever' özelliğini ekler",
+            "category": "Doğanın Büyüsü",
+            "requires_testing": false
+        },
+        {
+            "id": 407,
+            "command": "Traits.remove_trait Trait_Plantlover",
+            "description": "Seçilen Sim'den 'Bitki Sever' özelliğini kaldırır",
+            "category": "Doğanın Büyüsü",
+            "requires_testing": false
+        },
+        {
+            "id": 408,
+            "command": "Traits.equip_trait NaturesBestBud",
+            "description": "Seçilen Sim'e 'Doğanın En İyi Dostu' özelliğini ekler",
+            "category": "Doğanın Büyüsü",
+            "requires_testing": false
+        },
+        {
+            "id": 409,
+            "command": "Traits.remove_trait NaturesBestBud",
+            "description": "Seçilen Sim'den 'Doğanın En İyi Dostu' özelliğini kaldırır",
+            "category": "Doğanın Büyüsü",
+            "requires_testing": false
+        },
+        {
+            "id": 410,
+            "command": "stats.set_stat rankedStatistic_FairyOccult_FairyXP X",
+            "description": "Seçilen Peri Sim'e belirli miktarda Deneyim Puanı (XP) verir",
+            "category": "Doğanın Büyüsü",
+            "requires_testing": true
+        },
+        {
+            "id": 411,
+            "command": "Stats.Set_Skill_Level Skill_Archery 5",
+            "description": "Okçuluk yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 412,
+            "command": "Stats.Set_Skill_Level Major_Papercraft 10",
+            "description": "Kağıt Sanatı yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 413,
+            "command": "Stats.Set_Skill_Level Entomology 5",
+            "description": "Böcek Bilimi yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 414,
+            "command": "Stats.Set_Skill_Level Diving 5",
+            "description": "Dalış yeteneğini maksimuma çıkarır",
+            "category": "Yetenekler",
+            "requires_testing": true
+        },
+        {
+            "id": 415,
+            "command": "careers.promote ParkWorker",
+            "description": "Seçilen Sim'i Park Çalışanı kariyerinde terfi ettirir",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 416,
+            "command": "careers.demote ParkWorker",
+            "description": "Seçilen Sim'i Park Çalışanı kariyerinde rütbe düşürür",
+            "category": "Kariyer",
+            "requires_testing": true
+        },
+        {
+            "id": 417,
+            "command": "Traits.equip_trait Trait_Competitive",
+            "description": "Rekabetçi özelliğini ekler",
+            "category": "Diğer",
+            "requires_testing": false
+        },
+        {
+            "id": 418,
+            "command": "Traits.remove_trait Trait_Competitive",
+            "description": "Rekabetçi özelliğini kaldırır",
+            "category": "Diğer",
+            "requires_testing": false
+        }
+    ]
+}
